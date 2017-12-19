@@ -6,8 +6,7 @@ namespace semana2_aula3
     class Program
     {
         static void Main(string[] args)
-        {
-            FileInfo fi = new FileInfo("Arquivo.txt");
+        {           
             
             Console.WriteLine("Digite seu nome: ");
             string nome = Console.ReadLine();
